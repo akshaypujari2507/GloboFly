@@ -39,7 +39,7 @@ class DestinationListActivity : AppCompatActivity() {
 	private fun loadDestinations() {
 
         // To be replaced by retrofit code
-		//destiny_recycler_view.adapter = DestinationAdapter(SampleData.DESTINATIONS)
+		destiny_recycler_view.adapter = DestinationAdapter(SampleData.DESTINATIONS)
 
 		val destinationService = ServiceBuilder.buildService(DestinationService::class.java)
 

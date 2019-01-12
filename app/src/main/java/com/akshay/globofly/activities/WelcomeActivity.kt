@@ -14,7 +14,7 @@ class WelcomeActivity : AppCompatActivity() {
 		setContentView(R.layout.activity_welcome)
 
 		// To be replaced by retrofit code
-		message.text = "Black Friday! Get 50% cash back on saving your first spot."
+		message.text = "New Year Sale! Get 50% cash back on your first booking."
 	}
 
 	fun getStarted(view: View) {
